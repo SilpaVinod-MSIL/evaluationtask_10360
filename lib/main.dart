@@ -4,6 +4,3 @@ import 'screens/pandetails.dart';
 void main() {
   runApp(const PanDetailScreen());
 }
-
-
-
