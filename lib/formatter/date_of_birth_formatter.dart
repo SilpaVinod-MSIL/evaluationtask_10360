@@ -100,9 +100,11 @@ class DateOfBirthFormatter {
       String value,
       ValueNotifier colorNotifier) {
     final year = int.tryParse(value);
+    DateTime now = DateTime.now();
+    int currentYear = now.year;
     if (value.length == AppConstants.fourText &&
             year != null &&
-            (year > AppConstants.maxYearText) ||
+            (year > currentYear) ||
         ((value.length == AppConstants.fourText) &&
             (year! < AppConstants.minYearText))) {
       colorNotifier.value = Colors.red;

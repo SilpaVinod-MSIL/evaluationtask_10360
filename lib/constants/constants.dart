@@ -1,6 +1,5 @@
 class AppConstants {
   static String panCardAppBar = "PanCard Details";
-  static String panNo = "PAN Number";
   static String panDetails = "Enter Your PAN Details";
   static String dateOfBirth = "Date of Birth";
   static String dateOfBirthText = "DD/MM/YYYY";
@@ -19,7 +18,6 @@ class AppConstants {
   static int zeroText = 0;
   static int twentyNineText = 29;
   static int twentyEightText = 28;
-  static int maxYearText = 2023;
   static int minYearText = 1900;
   static int oneText = 1;
 }
