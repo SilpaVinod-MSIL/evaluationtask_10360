@@ -3,8 +3,8 @@ class AppConstants {
   static String panDetails = "Enter Your PAN Details";
   static String dateOfBirth = "Date of Birth";
   static String dateOfBirthText = "DD/MM/YYYY";
-  static String dateText = "DD/";
-  static String monthText = "MM/";
+  static String dateText = "DD";
+  static String monthText = "MM";
   static String yearText = "YYYY";
   static String slash = "/";
   static int twoText = 2;
@@ -20,4 +20,11 @@ class AppConstants {
   static int twentyEightText = 28;
   static int minYearText = 1900;
   static int oneText = 1;
+  static double fontSize=16;
+  static double sizeTwentyFive=25;
+  static double sizeThirty=30;
+  static double sizeFortyFive=45;
+  static double sizeTwo=2;
+
+
 }
